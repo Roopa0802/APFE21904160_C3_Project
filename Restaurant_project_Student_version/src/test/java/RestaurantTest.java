@@ -84,9 +84,7 @@ public void createRestaurantObject(){
         assertEquals(388, totalAmount);
     }
 
-<<<<<<< Updated upstream
-}
-=======
+
     @Test
     public void total_cost_of_the_items_selected_matches_with_the_cost_computed_by_get_total_cost(){
         Item item1 = new Item("Sweet corn soup",119);
@@ -98,4 +96,3 @@ public void createRestaurantObject(){
         assertEquals(388, totalAmount);
     }
 }
->>>>>>> Stashed changes
