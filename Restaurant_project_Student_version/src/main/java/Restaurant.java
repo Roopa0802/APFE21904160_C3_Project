@@ -69,5 +69,11 @@ public class Restaurant {
         return name;
     }
 
-
+    public double getTotalCost(List<Item> iTems){
+        double totalCost = 0.0;
+        for (Item iTem: iTems) {
+            totalCost = totalCost + iTem.getPrice();
+        }
+        return totalCost;
+    }
 }

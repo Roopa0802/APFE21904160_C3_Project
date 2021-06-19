@@ -84,4 +84,5 @@ public void createRestaurantObject(){
         assertEquals(388, totalAmount);
     }
 
+<<<<<<< Updated upstream
 }
