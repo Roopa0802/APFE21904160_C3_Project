@@ -84,15 +84,4 @@ public void createRestaurantObject(){
         assertEquals(388, totalAmount);
     }
 
-
-    @Test
-    public void total_cost_of_the_items_selected_matches_with_the_cost_computed_by_get_total_cost(){
-        Item item1 = new Item("Sweet corn soup",119);
-        Item item2 = new Item("Vegetable lasagne", 269);
-        List<Item> selectedItems = new ArrayList<Item>(2);
-        selectedItems.add(item1);
-        selectedItems.add(item2);
-        double totalAmount = restaurant.getTotalCost(selectedItems);
-        assertEquals(388, totalAmount);
-    }
 }
